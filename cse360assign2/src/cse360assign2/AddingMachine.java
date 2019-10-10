@@ -85,39 +85,5 @@ public class AddingMachine {
 		
 	}
 	
-	public static void main(String args[]){ 
-		
-		AddingMachine myCalculator = new AddingMachine(); // 
-		
-		/**
-		 *  Call add() method and/or subtract() method to add and/or subtract values.
-		 */
-		
-		myCalculator.add(4); 	
-		
-		myCalculator.subtract(2);
-		
-		myCalculator.add(5);
-		
-				
-		/**
-		 * Using standard output stream for giving the output.
-		 */
-		System.out.println("Total: " + myCalculator.getTotal() + '\n'); // Displaying the total
-		
-		System.out.println("History:" + myCalculator.toString() + '\n');
-		
-		
-		/**
-		 * Call clear() method to clear total.
-		 */
-		myCalculator.clear();
-		
-		
-		System.out.println("Total Deleted: " + myCalculator.getTotal() + '\n'); // Displaying the total
-		
-		System.out.println("History Deleted:" + myCalculator.toString() + '\n');  // Displaying the history
-		
-		
-	}
+	
 }
