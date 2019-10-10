@@ -18,7 +18,7 @@ public class AddingMachine {
 	private int total;	
 	
 	
-	private StringBuffer history;  // additional variable
+	private StringBuffer history;          // additional variable
 	
 	/**
 	 * Use StringBuffer to satisfy no limit on the size of the String returned.
@@ -80,9 +80,9 @@ public class AddingMachine {
 	/**
 	 * Clear the total variable and the history string.
 	 */
-		total = 0;                     // set total to zero.
-		history.delete(0,history.length());         // Set the history string back to zero for the next calculation.
+		total = 0;                          // set total to zero.
 		
+		history.delete(0,history.length()); // Set the history string to be empty.
 	}
 	
 	
