@@ -81,7 +81,7 @@ public class AddingMachine {
 	 * Clear the total variable and the history string.
 	 */
 		total = 0;                     // set total to zero.
-		history.setLength(1);         // Set the history string back to zero for the next calculation.
+		history.delete(0,history.length());         // Set the history string back to zero for the next calculation.
 		
 	}
 	
